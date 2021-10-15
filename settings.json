@@ -1,0 +1,62 @@
+{
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontLigatures": true,
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/web/node_modules": true,
+    "**/web/build": true, // will change frequently by build command
+    "**/admin/node_modules": true
+  },
+  "git.enableSmartCommit": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  // Typescript
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+  "prettier.jsxSingleQuote": true,
+  "i18n-ally.displayLanguage": "en-US",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    ],
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "workbench.preferredDarkColorTheme": "Omni",
+    "workbench.colorTheme": "Omni",
+}
